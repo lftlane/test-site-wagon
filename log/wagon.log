@@ -1,0 +1,10 @@
+# Logfile created on 2014-04-01 20:28:30 +0000 by logger.rb/1.2.8
+[0;97;49mStarted GET "/" at 2014-04-01 20:28:53 +0000[0m
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered liquid page template
+[0;32;49mCompleted 200 OK in 2.1ms
+
+[0m
+[0;31;49m      error => Command failed (/usr/local/bin/identify '/vagrant/engine/tmp/uploads/1396384465-1836-5173/favicon.png') with exit status 127
+[0m

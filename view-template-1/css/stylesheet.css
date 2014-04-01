@@ -1,0 +1,1558 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Lato;
+	font-size:12px;
+	line-height:normal;
+	color:#333;
+}
+
+a {
+	color:#3472ef;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#3472ef;
+	text-decoration:underline;
+}
+
+img {
+	border:0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin:0px;
+	padding:0px;
+}
+
+p,strong,br,b,span,hr {
+	margin:0px;
+	padding:0px;
+}
+
+.container {
+	width:85%;
+	margin:0px auto;
+	position:relative;
+}
+
+.Header,.Banner{
+	width:100%;
+	float:left;
+}
+
+.Banner {
+	position:relative;
+}
+
+.Banner img {
+	width:100%;
+}
+
+.HeaderTop {
+	background:url(../images/header_bg.png) repeat;
+	padding:6px 0px 6px 0px;
+	position:relative;
+	width:100%;
+	float:left;
+}
+
+.Logo {
+	width:10%;
+	float:left;
+}
+
+.Logo img {
+	width:100%;
+}
+
+.Nav {
+	width:84%;
+	float:right;
+	margin:25px 0px 0px 0px;
+}
+
+
+
+.jqueryslidemenu{
+	z-index:999;
+	position:relative;
+	float:right;
+	
+}
+
+.jqueryslidemenu ul{
+	margin:0px;
+	padding:0px;
+	list-style-type: none;
+}
+
+/*Top level list items*/
+.jqueryslidemenu li{
+	width:auto;
+	float:right;
+	list-style:none;
+	font-size:18px;
+	font-weight:bold;
+	margin:0px 0px 0px 4%;
+}
+/*Top level menu link items style*/
+.jqueryslidemenu li a{
+	
+	color:#fff;
+	text-decoration:none;
+	
+
+	
+}
+* html .jqueryslidemenu li a{ /*IE6 hack to get sub menu links to behave correctly*/
+	display: inline-block;
+	color:#fff;
+	padding:10px 0px;
+}
+
+.jqueryslidemenu select{
+	display:none;	
+}
+
+.jqueryslidemenu li a:hover{
+	color:#aec9ff;
+	
+}
+
+.jqueryslidemenu li a.active{
+	color:#aec9ff;
+	
+}
+
+/*.Nav ul {
+	margin:0px;
+	padding:0px;
+}
+
+.Nav li {
+	width:auto;
+	float:right;
+	list-style:none;
+	font-size:18px;
+	font-weight:bold;
+	margin:0px 0px 0px 4%;
+}
+
+.Nav li a {
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.Nav li a:hover {
+	color:#aec9ff;
+}*/
+
+.BannerSearch {
+	width:30%;
+	position:absolute;
+	background:#002571;
+	border-radius:8px;
+	padding:10px 2% 10px 2%;
+	bottom:40px;
+	right:0px;
+}
+
+.BannerSearch h1 {
+	width:100%;
+	float:left;
+	color:#ffffff;
+	font-family:Lato;
+	font-size:31px;
+	text-transform:uppercase;
+	line-height:31px;
+}
+
+.BannerSearch h2 {
+	width:100%;
+	float:left;
+	color:#ffffff;
+	font-family:Lato;
+	font-size:18px;
+	text-transform:uppercase;
+	line-height:18px;
+	margin:7px 0px 0px 0px;
+}
+
+.BannerSearchMenu {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.BannerSearchMenu ul {
+	margin:0px;
+	padding:0px;
+}
+
+.BannerSearchMenu li {
+	width:auto;
+	float:left;
+	list-style:none;
+	text-align:center;
+}
+
+.BannerSearchMenu li a{
+	color:#ffffff;
+	text-decoration:none;
+	background:#314f8b;
+	border-radius:4px;
+	padding:8px 0% 8px 0%;
+	display:block;
+}
+
+.BannerSearchMenu li a:hover{
+	color:#16377c;
+	background:#f5f5f5;
+}
+
+.BannerSearchMenu li a.active{
+	color:#16377c;
+	background:#f5f5f5;
+}
+
+.BannerSearchFiled {
+	width:100%;
+	position:relative;
+	background:#ffffff;
+	border-radius:6px;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.BannerSearchinput {
+	color:#16377c;
+	height:25px;
+	font-size:14px;
+	border:0px;
+	width:82%;
+	background:none;
+	margin:3px 0px 0px 10px;
+	float:left;
+}
+
+.BannerSearchlistFiled {
+	height:30px;
+	color:#16377c;
+	font-size:14px;
+	border:0px;
+	width:100%;
+	background:#fff;
+	border-radius:6px;
+	padding:4px 10px 4px 7px;
+	float:left;
+}
+
+.BannerButton {
+	width:auto;
+	float:left;
+	background:#4a9601;
+	border:0px;
+	border-radius:6px;
+	padding:6px 14px 6px 14px;
+	color:#ffffff;
+	font-size:14px;
+	font-family:Lato;
+	cursor:pointer; 
+}
+
+.BannerButton:hover {
+	background:#366e00;
+}
+
+.BannerAdvanceButton {
+	float:right; color:#fff;text-decoration:none; font-size:14px;margin:5px 0px 0px 0px;
+}
+
+.BannerAdvanceButton:hover {
+	text-decoration:underline;
+}
+
+.BannerMenyStyle {
+	width:19% !important; margin-left:1%;
+}
+
+.BannerMenyStyle_A {
+	width:19% !important;
+}
+
+.BannerMenyStyle_B {
+	width:60% !important;margin-left:1%;
+}
+
+.BannerDivider {
+	width:100%;
+	float:left;
+	background:#00408b;
+	height:1px;
+	border-bottom:1px solid #001654;
+	margin:12px 0px 0px 0px;
+}
+
+.Row {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.Row1 {
+	width:100%;
+	float:left;
+	margin:25px 0px 0px 0px;
+}
+
+.FeaturedCarBg {
+	width:100%;
+	float:left;
+	background:url(../images/featuredcar_bg.jpg) repeat-x center;
+	padding:20px 0px 20px 0px;
+}
+
+.FeaturedCarBlock {	
+	width:23%;
+	float:left;
+}
+
+.FeaturedCarBlock img {
+	width:100%;
+	float:left;
+}
+
+.FeaturedCarData{
+	width:94%;
+	float:left;
+	padding:10px 3% 10px 3%;
+	background:#fff;
+}
+
+.FeaturedHeading {
+	width:100%;
+	float:left;
+	color:#002571;
+	font-size:16px;
+	line-height:16px;
+}
+
+.FeaturedPriceTag {
+	width:100%;
+	color:#002571;
+	float:left;
+	font-size:14px;
+	margin:5px 0px 0px 0px;
+}
+
+.FeaturedInfoText {
+	width:100%;
+	float:left;
+	margin:7px 0px 0px 0px;
+	color:#333333;
+	font-size:14px;
+	line-height:16px;
+}
+
+.FeaturedInfoText a{
+	color:#487ef0;
+	text-decoration:none;
+}
+
+.FeaturedInfoText a:hover{
+	color:#487ef0;
+	text-decoration:underline;
+}
+
+.FeaturedCarMargin {
+	margin:0px 0px 0px 2.6%;
+}
+
+.FeaturedRight {
+	float:right !important;
+}
+
+.HomeContentBlock {
+	width:100%;
+	float:left;
+	background:#fff;
+	padding:30px 0px 30px 0px;
+}
+
+.BuyingGuidesBlock {
+	width:63%;
+	float:left;
+	border:1px solid #dadada;
+	padding:2%;
+	font-size:14px;
+}
+
+
+.BuyingBlockHead {
+	color:#002571;
+	font-size:20px;
+	line-height:20px;
+	float:left;
+	width:100%;
+}
+
+
+.BuyingCarBlock {
+	width:23%;
+	float:left;
+	margin:25px 0px 0px 0px;
+}
+
+.BuyingCarBlock img {
+	width:100%;
+}
+
+.BuyingCarMargin {
+	margin-left:2.4%;
+}
+
+.BuyingName {
+	width:100%;
+	float:left;
+	color:#3472ef;
+	text-align:center;
+	font-weight:normal;
+	font-size:14px;
+	margin:3px 0px 0px 0px;
+}
+
+.BuyingDivider {
+	width:100%;
+	float:left;
+	border-bottom:1px solid #dadada;
+	margin:25px 0px 0px 0px;
+}
+
+.BuyingListField {
+	width:22%;
+	float:left;
+	border:1px solid #dadada;
+	border-radius:6px;
+	padding:4px;
+	color:#494242;
+	background:url(../images/buyingfiled.jpg) repeat-x;
+	height:32px;
+	margin-right:1%;
+}
+
+.BuyingButton {
+	width:auto;
+	float:left;
+	background:#4a9601;
+	border:0px;
+	border-radius:6px;
+	padding:0px 14px 0px 14px;
+	color:#ffffff;
+	font-size:14px;
+	font-family:Lato;
+	cursor:pointer;
+	height:32px;
+	line-height:32px; 
+}
+
+.BuyingButton:hover {
+	background:#366e00;
+}
+
+.HomeContentRight {	
+	width:30%;
+	float:right;
+}
+
+.CompareBlock {
+	border:1px solid #dadada;
+	width:100%;
+	float:left;
+	background:#fff;
+}
+
+.comapre_image {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.comapre_image img {
+	width:100%;
+}
+
+.CompareBlockData {
+	float:left; margin:6% 3% 6% 4%;
+}
+
+.HomeRightAdd {
+	width:100%;
+	float:left;
+	margin:25px 0px 0px 0px;
+}
+
+.HomeRightAdd img {
+	width:100%;
+}
+
+.CompanyBlockBg {
+	width:100%;
+	float:left;
+	background:url(../images/about_bg.jpg) repeat-x  center;
+	padding:15px 0px 15px 0px;
+}
+
+.CompanyinfoBlock {
+	width:32%;
+	float:left;
+}
+
+.CompanyBlockMargin {
+	margin-left:2%;
+}
+
+.CompanyBlockRight {
+	float:right;
+}
+
+.CompanyinfoBlock h1 {	
+	width:100%;
+	float:left;
+	font-size:20px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.CompanyinfoText {
+	color:#fff;
+	font-size:13px;
+	line-height:16px;
+}
+
+.BlogPost {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.BlogPostDate {
+	width:20%;
+	float:left;
+	padding:5px 0px 5px 0px;
+	text-align:center;
+	background:#ffffff;
+	font-size:15px;
+	color:#16377c;
+}
+
+.NumberFont {
+	font-size:24px;
+}
+
+.BlogPostRight {
+	width:75%;
+	float:right;
+	color:#fff;
+	font-size:13px;
+	line-height:16px;
+}
+
+.GalleryImage {
+	width:31%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.GalleryImage img {
+	width:100%;
+}
+
+.GalleryMargin {
+	margin-left:3%;
+}
+
+.FooterGrey {
+	width:100%;
+	float:left;
+	padding:15px 0px 15px 0px;
+	background:#222222;
+}
+
+.FooterMenuA {
+	width:49%;
+	float:left;
+}
+
+.FooterMenuB {
+	width:48%;
+	float:right;
+}
+
+.FooterGreyMenu {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.FooterGreyMenu ul {
+	margin:0px;
+	padding:0px;
+}
+
+.FooterGreyMenu li {
+	width:100%;
+	float:left;
+	list-style:none;
+	color:#d6d6d6;
+	font-size:13px;
+	border-bottom:1px solid #343434;
+	padding-bottom:3px;
+	margin:5px 0px 5px 0px;
+}
+
+.FooterGreyMenu li a{
+	color:#d6d6d6;
+}
+
+.FooterGreyMenu li a:hover{
+	color:#3472ef;
+	text-decoration:none;
+}
+
+.NewslatterField {
+	width:63%;
+	float:left;
+	border:0px;
+	background:#fff;
+	height:35px;
+	font-size:12px;
+	line-height:35px;
+	padding:0px 0px 0px 2%;
+	color:#b1b1b1;
+}
+
+.NewslatterButton {
+	width:35%;
+	border:0px;
+	float:left;
+	text-align:center;
+	background:#16377c;
+	cursor:pointer;
+	color:#fff;
+	font-size:13px;
+	font-family:Lato;
+	height:35px;
+	line-height:35px;
+}
+
+.NewslatterButton:hover {
+	background:#09255d;
+}
+
+.FooterBlack {
+	background:#1b1b1b;
+	width:100%;
+	float:left;
+	padding:12px 0px 12px 0px;
+	font-size:13px;
+	color:#fff;
+}
+
+.SearchPageBlock {
+	background:#f0f0f0;
+	width:100%;
+	float:left;
+	padding:5px 0px 25px 0px;
+}
+
+.SearchPageBlockRight {
+	width:75%;
+	float:right;
+}
+
+.SearchPageBlockLeft {
+	width:23%;
+	float:left;
+}
+
+.SearchCarBlock {
+	width:32%;
+	float:left;
+	margin:20px 0px 0px 0px;
+}
+
+.SearchCarBlockMargin {
+	margin-left:2%;
+}
+
+.LeftSearchFiled {
+	width:99.6%;
+	position:relative;
+	background:#ffffff;
+	float:left;
+	margin:15px 0px 0px 0px;
+	border:1px solid #dadada;
+}
+
+.SearchLeftMenuHead {
+	width:92%;
+	float:left;
+	margin:20px 0px 0px 0px;
+	padding:12px 4% 12px 4%;
+	background:#16377c;
+	font-size:18px;
+	line-height:18px;
+	color:#fff;
+}
+
+.SearchLeftMenu {
+	width:92%;
+	float:left;
+	margin:0px 0px 0px 0px;
+	padding:0px 4% 0px 4%;
+	background:#fff;
+}
+
+.SearchLeftMenu ul {
+	margin:0px;
+	padding:0px;
+}
+
+.SearchLeftMenu li {
+	width:100%;
+	float:left;
+	font-size:13px;
+	list-style:none;
+	border-bottom:1px solid #e5e5e5;
+	padding:11px 0px 11px 0px;
+	
+}
+
+.SearchLeftMenu li:last-child {
+	border-bottom:1px solid #fff;
+	
+}
+
+.SearchLeftMenu li a{
+	color:#333;
+}
+
+.SearchPageBanner {
+	width:100%;
+	float:left;
+	height:145px;
+	background:url(../images/cardetail_banner.jpg) center #020b17;
+}
+
+
+.SearchPageBanner h1 {
+	width:auto;
+	position:relative;
+	float:left;
+	color:#ffffff;
+	font-size:24px;
+	margin:60px 0px 0px 0px;
+}
+
+.SearchPageBanner h2 {
+	width:auto;
+	position:relative;
+	float:right;
+	color:#ffffff;
+	font-size:15px;
+	margin:60px 0px 0px 0px;
+}
+
+.DetailPageLeftBlock {
+	width:68%;
+	float:left;
+	border:1px solid #dadada;
+	background:#ffffff;
+	margin:25px 0px 0px 0px;
+}
+
+.CarDetailData {
+	width:66%;
+	float:left;
+	padding:2%;
+}
+
+.DetailSilder {
+	width:100%;
+	float:left;
+}
+
+.DetailSilder img {
+	width:100%;
+}
+
+.DetailSilderThumb {
+	width:100%;
+	float:left;
+	margin:10px 0px 0px 0px;
+}
+
+.DetailSilderThumb ul {
+	margin:0px;
+	padding:0px;
+}
+
+.DetailSilderThumb li {
+	width:23%;
+	float:left;
+	list-style:none;
+	margin:0px 2.5% 0px 0px;
+}
+
+.DetailSilderThumb li img{
+	width:100%;
+}
+
+
+.DetailSilderThumb li:last-child{
+	float:right;
+	margin:0px 0px 0px 0px;
+}
+
+.DetailDivider {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+	border-bottom:1px solid #dadada;
+}
+
+.DetailPageInfoData {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.DetailnoteText {
+	width:30%;
+	float:right;
+	color:#929292;
+	font-size:11px;
+	margin:10px 0px 0px 0px;
+}
+
+.DetailCarCapacity {
+	width:68%;
+	float:left;
+	font-size:14px;
+	color:#333333;
+}
+
+.DetailCarCapacity p {
+	margin:10px 0px 0px 0px;
+}
+
+.NoteDetailSub {
+	margin:13px 0px 0px 0px;
+	width:100%;
+	float:left;
+	color:#908b8b;
+}
+
+.CardetailFormData {
+	width:26%;
+	float:left;
+	background:#dae5f9;
+	padding:2%;
+}
+
+.DetailPriceBlock {
+	width:96%;
+	float:left;
+	background:#ffffff;
+	margin:10px 0px 0px 0px;
+	padding:2%;
+}
+
+.DetailPriceBlock p {
+	width:100%;
+	float:left;
+	font-size:14px;
+	margin:8px 0px 0px 0px;
+}
+
+.DetailPriceBlock p:last-child {
+	color:#399502;
+	margin:8px 0px 8px 0px;
+}
+
+.DetailPriceBlock p strong{
+	float:left;
+}
+
+.DetailPriceBlock p b{
+	float:right;
+}
+
+.DetailTextFiled {
+	width:95%;
+	float:left;
+	height:35px;
+	line-height:35px;
+	border:0px;
+	background:#fff;
+	padding:0px 0px 0px 5%;
+	font-size:13px;
+	font-family:Lato;
+	color:#a2a2a2
+}
+
+.DetailTextarea{
+	width:90%;
+	float:left;
+	height:78px;
+	border:0px;
+	background:#fff;
+	padding:5px 5% 5px 5%;
+	font-size:13px;
+	font-family:Lato;
+	color:#a2a2a2
+}
+
+.DetailFormButton {
+	width: auto;
+	float: right;
+	background: #4a9601;
+	border: 0px;
+	border-radius: 6px;
+	padding: 8px 5% 8px 5%;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: Lato;
+	cursor: pointer;
+}
+
+
+.DetailBlockHeading {
+	color: #002571;
+	font-size: 17px;
+	line-height: 17px;
+	float: left;
+	width: 100%;
+}
+
+.SearchPageinput {
+	color:#727272;
+	height:25px;
+	font-size:13px;
+	border:0px;
+	width:79%;
+	background:none;
+	margin:3px 0px 0px 10px;
+	float:left;
+	font-family:Lato;
+}
+
+.DetailComparemargin {
+	margin:20px 0px 0px 0px;
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+
+.container {
+	width:95%;
+	margin:0px auto;
+	position:relative;
+}
+
+
+.jqueryslidemenu li{
+	font-size:15px;
+}
+
+.BannerSearch {
+	bottom:20px;
+	width:35%;
+}
+
+.BannerSearch h1 {
+	font-size:24px;
+	text-transform:uppercase;
+	line-height:24px;
+}
+
+.BannerSearch h2 {
+	font-family:Lato;
+	font-size:16px;
+	text-transform:uppercase;
+	line-height:16px;
+}
+
+.Banner img {
+	width:100%;
+	height:310px;
+}
+
+.CompanyinfoBlock h1 {	
+	font-size:17px;
+}
+
+.FeaturedHeading {
+	font-size:14px;
+	line-height:14px;
+}
+
+.FeaturedPriceTag {
+	font-size:13px;
+}
+
+.FeaturedInfoText {
+	font-size:13px;
+	line-height:16px;
+}
+
+.DetailBlockHeading {
+	color: #002571;
+	font-size: 16px;
+	line-height: 16px;
+	float: left;
+	width: 100%;
+}
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+
+
+.container {
+	width:95%;
+	margin:0px auto;
+	position:relative;
+}
+
+.Nav {
+	width:84%;
+	float:right;
+	margin:20px 0px 0px 0px;
+}
+
+
+.jqueryslidemenu li{
+	font-size:13px;
+}
+.BannerSearch {
+	bottom:20px;
+	width:39%;
+}
+
+.BannerSearch h1 {
+	font-size:18px;
+	text-transform:uppercase;
+	line-height:18px;
+}
+
+.BannerSearch h2 {
+	font-family:Lato;
+	font-size:14px;
+	text-transform:uppercase;
+	line-height:14px;
+}
+
+.Banner img {
+	width:100%;
+	height:300px;
+}
+
+.CompanyinfoBlock h1 {	
+	font-size:14px;
+}
+
+.FeaturedHeading {
+	font-size:13px;
+	line-height:13px;
+}
+
+.FeaturedPriceTag {
+	font-size:12px;
+}
+
+.FeaturedInfoText {
+	font-size:12px;
+	line-height:15px;
+}
+
+.FooterGreyMenu li {
+	font-size:12px;
+}
+
+.BlogPostRight {
+	font-size:12px;
+}
+
+.CompanyinfoText {
+	color:#fff;
+	font-size:12px;
+	line-height:15px;
+}
+
+.SearchLeftMenu li {
+	font-size:12px;
+	
+}
+
+.SearchLeftMenuHead {
+	font-size:15px;
+	line-height:15px;
+}
+
+.DetailBlockHeading {
+	color: #002571;
+	font-size: 15px;
+	line-height: 15px;
+	float: left;
+	width: 100%;
+}
+
+.DetailPriceBlock p {
+	width:100%;
+	float:left;
+	font-size:12px;
+	margin:8px 0px 0px 0px;
+}
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 768px) {
+
+.container {
+	width:94%;
+	margin:0px auto;
+	position:relative;
+}
+
+
+.Banner img {
+	height:270px;
+	width:100%;
+}
+
+.BannerSearch {
+	width:94%;
+	position:absolute;
+	background:#002571;
+	border-radius:8px;
+	padding:8px 2% 8px 2%;
+	bottom:5px;
+	right:0px;
+}
+
+.BannerSearch h1 {
+	font-size:16px;
+}
+
+.BannerSearch h2 {
+	font-size:14px;
+	margin:3px 0px 0px 0px;
+}
+
+.BannerSearchMenu {
+	width:100%;
+	float:left;
+	margin:10px 0px 0px 0px;
+}
+
+.BannerSearchMenu ul {
+	margin:0px;
+	padding:0px;
+}
+
+.BannerSearchMenu li {
+	width:auto;
+	float:left;
+	list-style:none;
+	text-align:center;
+	font-size:11px;
+}
+
+.BannerSearchMenu li a{
+	color:#ffffff;
+	text-decoration:none;
+	background:#314f8b;
+	border-radius:4px;
+	padding:8px 0% 8px 0%;
+	display:block;
+}
+
+.BannerSearchMenu li a:hover{
+	color:#16377c;
+	background:#f5f5f5;
+}
+
+.BannerSearchMenu li a.active{
+	color:#16377c;
+	background:#f5f5f5;
+}
+
+.BannerSearchFiled {
+	width:100%;
+	position:relative;
+	background:#ffffff;
+	border-radius:6px;
+	float:left;
+	margin:10px 0px 0px 0px;
+}
+
+.BannerSearchinput {
+	color:#16377c;
+	height:25px;
+	font-size:14px;
+	border:0px;
+	width:73%;
+	background:none;
+	margin:3px 0px 0px 10px;
+	float:left;
+}
+
+.BannerSearchlistFiled {
+	height:30px;
+	color:#16377c;
+	font-size:14px;
+	border:0px;
+	width:100%;
+	background:#fff;
+	border-radius:6px;
+	padding:4px 10px 4px 7px;
+	float:left;
+}
+
+.BannerButton {
+	width:auto;
+	float:left;
+	background:#4a9601;
+	border:0px;
+	border-radius:6px;
+	padding:6px 8px 6px 8px;
+	color:#ffffff;
+	font-size:12px;
+	font-family:Lato;
+	cursor:pointer; 
+}
+
+.BannerButton:hover {
+	background:#366e00;
+}
+
+.BannerAdvanceButton {
+	float:right; color:#fff;text-decoration:none; font-size:12px;margin:5px 0px 0px 0px;
+}
+
+.BannerAdvanceButton:hover {
+	text-decoration:underline;
+}
+
+.BannerDivider {
+	display:block;
+}
+
+.Nav {
+	margin: 0px 0px 0px 0px;
+}
+
+
+.jqueryslidemenu ul {
+	display:none;
+}
+.jqueryslidemenu {
+	display:block;
+	float:right;
+	width:70%;
+	text-align:center;
+	padding:1px 0px 1px 0px;
+	border-radius:6px;
+	margin:1% 0px 0px 0px;
+}
+.jqueryslidemenu select {
+	display:block;
+	width:100%;
+	height:22px;
+	background:#E1E1E1;
+	float:left;
+	padding:1px 2px 1px 5px;
+	border:1px solid #6082C5;
+	color:#012367;
+	font-family:Lato;
+	border-radius:6px;
+	font-size:12px;
+}
+.jqueryslidemenu select option {
+	padding:2px 4px;
+}
+
+.Logo {
+	width:20%;
+}
+
+
+.FeaturedCarBlock {	
+	width:100%;
+	float:left;
+	margin:20px 0px 0px 0px;
+}
+
+.FeaturedCarBlock img {
+	width:100%;
+	float:left;
+}
+
+.FeaturedCarData{
+	width:94%;
+	float:left;
+	padding:10px 3% 10px 3%;
+	background:#fff;
+}
+
+.FeaturedHeading {
+	width:100%;
+	float:left;
+	color:#002571;
+	font-size:16px;
+	line-height:16px;
+}
+
+.FeaturedPriceTag {
+	width:100%;
+	color:#002571;
+	float:left;
+	font-size:14px;
+	margin:5px 0px 0px 0px;
+}
+
+.FeaturedInfoText {
+	width:100%;
+	float:left;
+	margin:7px 0px 0px 0px;
+	color:#333333;
+	font-size:14px;
+	line-height:16px;
+}
+
+.FeaturedInfoText a{
+	color:#487ef0;
+	text-decoration:none;
+}
+
+.FeaturedInfoText a:hover{
+	color:#487ef0;
+	text-decoration:underline;
+}
+
+.FeaturedCarMargin {
+	
+}
+
+.FeaturedRight {
+	float:right !important;
+}
+
+.FeaturedCarBg {
+	width:100%;
+	float:left;
+	background:url(../images/featuredcar_bg.jpg) repeat;
+	padding:0px 0px 20px 0px;
+}
+
+.BuyingGuidesBlock {
+	width:95%;
+	float:left;
+	border:1px solid #dadada;
+	padding:2%;
+	font-size:14px;
+}
+
+
+.BuyingBlockHead {
+	color:#002571;
+	font-size:16px;
+	line-height:16px;
+	float:left;
+	width:100%;
+}
+
+
+.BuyingCarBlock {
+	width:47%;
+	float:left;
+	margin:25px 0px 0px 0px;
+}
+
+.BuyingCarBlock img {
+	width:100%;
+}
+
+.BuyingCarMargin {
+	margin-left:2.4%;
+}
+
+.BuyingName {
+	width:100%;
+	float:left;
+	color:#3472ef;
+	text-align:center;
+	font-weight:normal;
+	font-size:14px;
+	margin:3px 0px 0px 0px;
+}
+
+.BuyingDivider {
+	width:100%;
+	float:left;
+	border-bottom:1px solid #dadada;
+	margin:25px 0px 0px 0px;
+}
+
+.BuyingListField {
+	width:47%;
+	float:left;
+	border:1px solid #dadada;
+	border-radius:6px;
+	padding:4px;
+	color:#494242;
+	background:url(../images/buyingfiled.jpg) repeat-x;
+	height:32px;
+	margin:10px 2% 0px 0px;
+}
+
+.BuyingButton {
+	width:auto;
+	float:left;
+	background:#4a9601;
+	border:0px;
+	border-radius:6px;
+	padding:0px 14px 0px 14px;
+	color:#ffffff;
+	font-size:14px;
+	font-family:Lato;
+	cursor:pointer;
+	height:32px;
+	line-height:32px; 
+	margin:10px 1% 0px 0px;
+}
+
+.BuyingButton:hover {
+	background:#366e00;
+}
+
+.HomeContentRight {	
+	width:99%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.CompanyBlockBg {
+	width:100%;
+	float:left;
+	background:url(../images/about_bg.jpg);
+	padding:15px 0px 15px 0px;
+}
+
+.CompanyinfoBlock {
+	width:100%;
+	float:left;
+	margin:15px 0px 0px 0px;
+}
+
+.CompanyBlockMargin {
+	margin-left:0px;
+}
+
+.CompanyBlockRight {
+	float:right;
+}
+
+.FooterGreyMenu li {
+	font-size:12px;
+}
+
+.CompanyinfoBlock h1 {	
+	font-size:15px;
+}
+
+.HomeContentBlock {
+	padding:15px 0px 15px 0px;
+}
+
+
+.SearchPageBanner {
+	width:100%;
+	float:left;
+	height:120px;
+	
+}
+
+
+.SearchPageBanner h1 {
+	color:#ffffff;
+	font-size:15px;
+	margin:30px 0px 0px 0px;
+}
+
+.SearchPageBanner h2 {
+	font-size:12px;
+	margin:30px 0px 0px 0px;
+	font-weight:normal;
+}
+
+.DetailPageLeftBlock {
+	width:99.5%;
+	float:left;
+	border:1px solid #dadada;
+	background:#ffffff;
+	margin:25px 0px 0px 0px;
+}
+
+.CarDetailData {
+	width:96%;
+	float:left;
+	padding:2%;
+}
+
+.CardetailFormData {
+	width:94%;
+	float:left;
+	background:#dae5f9;
+	padding:3%;
+}
+
+.DetailTextFiled {
+	width:98%;
+	padding:0px 0px 0px 2%;
+}
+
+.DetailnoteText {
+	width:100%;
+	margin:10px 0px 0px 0px;
+}
+
+.DetailCarCapacity {
+	width:100%;
+}
+
+.DetailBlockHeading {
+	color: #002571;
+	font-size: 15px;
+	line-height: 15px;
+	float: left;
+	width: 100%;
+}
+
+.SearchPageBlockRight {
+	width:100%;
+	float:right;
+}
+
+.SearchPageBlockLeft {
+	width:100%;
+	float:left;
+}
+
+}
+
